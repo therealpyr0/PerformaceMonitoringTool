@@ -2,21 +2,15 @@
 #This Python file uses the following encoding: utf-8
 
 import os
-import subprocess
 import json
-#import psutil
 import tempfile
-import xml.etree.cElementTree as ET
 import time
-import threading
 import argparse
 import psutil
-import codecs
 import json
 import urllib2
 
 class ProcessPerformance:
-    #processname=r"Adobe Photoshop CC 2019"
     cpulist=[]
     rsslist=[]
     vmslist=[]
